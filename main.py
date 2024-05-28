@@ -2,7 +2,7 @@ from art import logo
 from art import thanks
 
 MENU = {
-    "1. Espresso": {
+    "espresso": {
         "ingredients": {
             "water": 50,
             "coffee": 18,
