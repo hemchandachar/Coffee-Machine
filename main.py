@@ -46,7 +46,7 @@ def is_resource_sufficient(order_ingredients):
 
 def process_rupees():
     print("Insert rupees of 100 / 200 / 500 only.")
-    amount = int(input("Enter rupees ₹"))
+    amount = int(input("₹"))
     if amount == 100:
         print(f"Received ₹{amount}")
     elif amount == 200:
