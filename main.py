@@ -1,5 +1,4 @@
-from art import logo
-from art import thanks
+from art import logo, thanks
 
 MENU = {
     "espresso": {
