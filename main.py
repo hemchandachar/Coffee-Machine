@@ -81,6 +81,7 @@ is_on = True
 
 while is_on:
     print("Hey Welcome, A lot can happen over coffee!")
+    print("\n")
     print("Coffee crafted with Care. \n"
           "Espresso: ₹25 \n"
           "Latte: ₹45 \n"
