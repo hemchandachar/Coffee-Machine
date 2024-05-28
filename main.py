@@ -1,4 +1,5 @@
 from art import logo
+from art import thanks
 
 MENU = {
     "1. Espresso": {
@@ -45,8 +46,16 @@ def is_resource_sufficient(order_ingredients):
 
 def process_rupees():
     print("Insert rupees of 100 / 200 / 500 only.")
-    total = int(input("Amount is ₹"))
-    return total
+    amount = int(input("Enter rupees ₹"))
+    if amount == 100:
+        print(f"Received ₹{amount}")
+    elif amount == 200:
+        print(f"Received ₹{amount}")
+    elif amount == 500:
+        print(f"Received ₹{amount}")
+    else:
+        print("Invalid Input. Try later")
+    return amount
 
 
 def is_transaction_successful(money_received, drink_cost):
@@ -67,7 +76,7 @@ def make_coffee(drink_name, order_ingredients):
     for item in order_ingredients:
         resources[item] -= order_ingredients[item]
     print(f"Here is your {drink_name}☕. Enjoy!")
-
+    print(thanks)
 
 is_on = True
 
